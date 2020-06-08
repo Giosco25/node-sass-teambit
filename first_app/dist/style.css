@@ -447,6 +447,45 @@ main {
   width: 100%;
 }
 
+.container {
+  width: 82%;
+  height: 100%;
+  background: yellow;
+  display: flex;
+  margin: auto;
+}
+
+.section-right {
+  width: 40%;
+  height: 500px;
+  background: white;
+}
+
+.section-right h1 {
+  color: #58402c;
+  margin-top: 50px;
+}
+
+.section-right p {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.section-right .btn-first-section {
+  padding-top: 19px;
+}
+
+.section-right .btn-first-section button {
+  background-color: #30488f;
+  color: white;
+  width: 185px;
+  height: 35px;
+}
+
+.btn-slack {
+  margin-left: 33px;
+}
+
 footer {
   height: 490px;
   background: blue;

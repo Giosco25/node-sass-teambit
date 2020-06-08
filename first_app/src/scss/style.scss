@@ -3,11 +3,8 @@
 @import 'partials/_normalize';
 @import 'partials/_header';
 @import 'partials/_navbar_menu';
-main{
-    background-color: red;
-    height: 1250px;
-    width: 100%;
-}
+@import 'partials/_main.scss';
+
 
 footer{
     height: 490px;

@@ -1,0 +1,40 @@
+main{
+    background-color: red;
+    height: 1250px;
+    width: 100%;
+}
+.container{
+    width: 82%;
+    height: 100%;
+    background: yellow;
+    display: flex;
+    margin: auto;
+}
+.section-right{
+    width: 40%;
+    height: 500px;
+    background: white;
+
+    h1{
+        color:#58402c;
+        margin-top: 50px;
+    }
+
+    p{
+        font-size: 20px;
+        padding-top: 10px;
+
+     }
+    .btn-first-section{
+        padding-top: 19px;
+    }
+    .btn-first-section button{
+        background-color: $colore_button;
+        color: white;
+        width: 185px;
+        height: 35px;
+       }
+   }
+   .btn-slack{
+       margin-left: 33px;
+   }
