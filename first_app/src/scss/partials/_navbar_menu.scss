@@ -1,0 +1,26 @@
+.menu li a{
+    color:$colore_titoli;
+    text-decoration: none;
+
+}
+.menu li{
+    list-style-type: none;
+    float: left;
+    margin: 40px 28px;
+}
+.menu{
+    float: left;
+}
+.btn-header{
+    float: right;
+    margin: 34px 20px;
+    width: 110px;
+    height: 35px;
+    border-radius: 7px;
+    background: #fff;
+    color:$colore_button;
+    border: 1px solid $colore_button;
+}
+.btn-header i{
+    padding-right: 10px;
+}
