@@ -449,7 +449,6 @@ header {
 
 main {
   background-color: red;
-  height: 1250px;
   width: 100%;
 }
 
@@ -460,7 +459,7 @@ main {
 
 .main-top .container {
   height: 100%;
-  background: yellow;
+  background: white;
 }
 
 .section-first-left {
@@ -497,11 +496,12 @@ main {
   margin-left: 5px;
 }
 
-.btn-first-section button i {
+.padding,
+.btn-slack i {
   padding-right: 10px;
 }
 
-.btn-slack i {
+.btn-first-section button i {
   padding-right: 10px;
 }
 
@@ -511,7 +511,8 @@ main {
 }
 
 .section-first-right img {
-  height: 78%;
+  height: auto;
+  width: 100%;
   padding-left: 62px;
 }
 
@@ -571,13 +572,206 @@ main {
   height: 23%;
 }
 
+.container::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  color: #58402c;
+  margin-top: 40px;
+}
+
 footer {
   height: 490px;
-  background: blue;
 }
 
 .footer-left {
-  background: beige;
-  height: 20%;
+  width: 25%;
+  background-color: white;
+  height: 130px;
+  position: relative;
+  display: inline-block;
+  margin-top: 29px;
+  float: left;
+  margin-left: 50px;
+}
+
+.footer-left img {
+  position: absolute;
+  top: 28px;
+  left: 9px;
+  height: 50px;
+  width: 50px;
+}
+
+.footer-left p {
+  padding-left: 80px;
+  padding-top: 30px;
+  color: #58402c;
+}
+
+.footer-left a {
+  color: #30488f;
+  text-decoration: none;
+}
+
+.footer-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.product,
+.about,
+.connect,
+.labs,
+.blog {
+  background-color: white;
+  width: 10%;
+  margin-top: 29px;
+  margin-left: 50px;
+}
+
+.product h4,
+.about h4,
+.connect h4,
+.labs h4,
+.blog h4 {
+  color: #58402c;
+  padding-top: 10px;
+}
+
+.product ul li,
+.about ul li,
+.connect ul li,
+.labs ul li,
+.blog ul li {
+  list-style-type: none;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.product ul li a,
+.about ul li a,
+.connect ul li a,
+.labs ul li a,
+.blog ul li a {
+  text-decoration: none;
+  color: #58402c;
+}
+
+.product,
+.about,
+.connect,
+.labs,
+.blog > ul li:hover {
+  color: #30488f;
+}
+
+[class*=col-] {
+  float: left;
+}
+
+.col-1 {
+  width: calc(100% / 12);
+}
+
+.col-2 {
+  width: calc((100% / 12) * 2);
+}
+
+.col-3 {
+  width: calc((100% / 12) * 3);
+}
+
+.col-4 {
+  width: calc((100% / 12) * 4);
+}
+
+.col-5 {
+  width: calc((100% / 12) * 5);
+}
+
+.col-6 {
+  width: calc((100% / 12) * 6);
+}
+
+.col-7 {
+  width: calc((100% / 12) * 7);
+}
+
+.col-8 {
+  width: calc((100% / 12) * 8);
+}
+
+.col-9 {
+  width: calc((100% / 12) * 9);
+}
+
+.col-10 {
+  width: calc((100% / 12) * 10);
+}
+
+.col-11 {
+  width: calc((100% / 12) * 11);
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-offset-1 {
+  margin-left: calc(100% / 12);
+}
+
+.col-offset-2 {
+  margin-left: calc((100% / 12) * 2);
+}
+
+.col-offset-3 {
+  margin-left: calc((100% / 12) * 3);
+}
+
+.col-offset-4 {
+  margin-left: calc((100% / 12) * 4);
+}
+
+.col-offset-5 {
+  margin-left: calc((100% / 12) * 5);
+}
+
+.col-offset-6 {
+  margin-left: calc((100% / 12) * 6);
+}
+
+.col-offset-7 {
+  margin-left: calc((100% / 12) * 7);
+}
+
+.col-offset-8 {
+  margin-left: calc((100% / 12) * 8);
+}
+
+.col-offset-9 {
+  margin-left: calc((100% / 12) * 9);
+}
+
+.col-offset-10 {
+  margin-left: calc((100% / 12) * 10);
+}
+
+.col-offset-11 {
+  margin-left: calc((100% / 12) * 11);
+}
+
+.col-offset-12 {
+  margin-left: calc((100% / 12) * 12);
 }
 

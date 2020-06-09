@@ -1,8 +1,60 @@
 footer{
     height: 490px;
-    background: blue;
 }
 .footer-left{
-    background: beige;
-    height: 20%;
+    width: 25%;
+    background-color: white;
+    height: 130px;
+    position: relative;
+    display: inline-block;
+    margin-top: 29px;
+    float: left;
+    margin-left: 50px;
+
+    img{
+       position: absolute;
+       top: 28px;
+       left: 9px;
+       height: 50px;
+       width: 50px;
+   }
+
+    p{
+        padding-left: 80px;
+        padding-top: 30px;
+        color:#58402c;
+ }
+    a{
+        color: $colore_button;
+        text-decoration:none;
+    }
+}
+.footer-link{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.product, .about, .connect, .labs,.blog{
+    background-color: white;
+    width: 10%;
+    margin-top: 29px;
+    margin-left: 50px;
+    h4{
+        color:$colore_titoli;
+        padding-top: 10px;
+    }
+
+    ul li{
+        list-style-type: none;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    ul li a{
+        text-decoration:none;
+        color:$colore_titoli;
+    }
+}
+
 }

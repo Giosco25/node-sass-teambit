@@ -1,6 +1,5 @@
 main{
     background-color: red;
-    height: 1250px;
     width: 100%;
 }
 .main-top{
@@ -9,7 +8,7 @@ main{
 }
 .main-top .container{
     height: 100%;
-    background: yellow;
+    background: white;
 }
 .section-first-left{
     height: 100%;
@@ -41,19 +40,23 @@ main{
          margin-left: 5px;
        }
    }
+.padding{
+     padding-right: 10px;
+ }
 .btn-first-section button i{
     padding-right: 10px;
 }
 .btn-slack i {
   // padding-right: 10px;
-  @extend .btn-first-section button i
+  @extend .padding;
 }
 .section-first-right{
     height: 100%;
     background-color: white;
 
     img{
-        height: 78%;
+        height: auto;
+        width: 100%;
         padding-left: 62px;
     }
 }
@@ -100,4 +103,16 @@ main{
 .main-center-due{
     background-color: $colore_section;
     height: 23%;
+}
+.container::after{
+    display: table;
+    content:'';
+    clear:both;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    color: $colore_titoli;
+    margin-top: 40px;
 }
