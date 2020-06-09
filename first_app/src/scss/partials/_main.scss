@@ -3,41 +3,100 @@ main{
     height: 1250px;
     width: 100%;
 }
-.container{
-    width: 82%;
+.main-top{
+    height: 25%;
+    background: black;
+}
+.main-top .container{
     height: 100%;
     background: yellow;
-    display: flex;
-    margin: auto;
 }
 .section-first-left{
-    height: 40%;
+    height: 100%;
     background-color: white;
+    text-align: center;
 
     h1{
-        color:#58402c;
+        color: #58402c;
         margin-top: 50px;
+        font-size: 35px;
     }
     p{
-       font-size: 20px;
-       padding-top: 10px;
+        font-size: 21px;
+        padding-top: 10px;
 
     }
-       //  .btn-first-section{
-       //      padding-top: 19px;
-       //  }
-       //  .btn-first-section button{
-       //      background-color: $colore_button;
-       //      color: white;
-       //      width: 185px;
-       //      height: 35px;
-       //     }
-       // }
-       // .btn-slack{
-       //   margin-left: 33px;
-       // }
+       .btn-first-section{
+          padding-top: 35px;
+        }
+        .btn-first-section button{
+            background-color: $colore_button;
+            color: white;
+            height: 35px;
+            border-radius: 7px;
+            border: none;
+            padding: 0 20px;
+            }
+       .btn-slack{
+         margin-left: 5px;
+       }
+   }
+.btn-first-section button i{
+    padding-right: 10px;
+}
+.btn-slack i {
+  padding-right: 10px;
 }
 .section-first-right{
-    height: 40%;
-    background-color: lightgreen;
+    height: 100%;
+    background-color: white;
+
+    img{
+        height: 78%;
+        padding-left: 62px;
+    }
+}
+.main-center{
+    background-color: $colore_section;
+    height: 55%;
+}
+.second-section-top{
+    height: 100px;
+    background-color: $colore_section;
+    margin-top: 29px;
+
+    h2{
+        color: $colore_titoli;
+        text-align: center;
+        font-size: 26px;
+    }
+}
+.second-section-middle{
+    height: 180px;
+    background-color: $colore_section;
+    text-align: center;
+    padding-top: 12px;
+
+    img{
+        padding-top: 11px;
+        height: 50%;
+    }
+    p{
+        padding-top: 16px;
+    font-size: 21px;
+    }
+}
+.second-section-bottom{
+    background-color: $colore_section;
+    display: flex;
+    justify-content: center;
+
+    img{
+        width: 17%;
+        object-fit: cover;
+    }
+}
+.main-center-due{
+    background-color: black;
+    height: 23%;
 }

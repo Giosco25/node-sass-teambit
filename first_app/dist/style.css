@@ -447,36 +447,116 @@ main {
   width: 100%;
 }
 
-.container {
-  width: 82%;
+.main-top {
+  height: 25%;
+  background: black;
+}
+
+.main-top .container {
   height: 100%;
   background: yellow;
-  display: flex;
-  margin: auto;
 }
 
 .section-first-left {
-  height: 40%;
+  height: 100%;
   background-color: white;
+  text-align: center;
 }
 
 .section-first-left h1 {
   color: #58402c;
   margin-top: 50px;
+  font-size: 35px;
 }
 
 .section-first-left p {
-  font-size: 20px;
+  font-size: 21px;
   padding-top: 10px;
 }
 
-.section-first-right {
-  height: 40%;
-  background-color: lightgreen;
+.section-first-left .btn-first-section {
+  padding-top: 35px;
 }
 
-footer {
-  height: 490px;
-  background: blue;
+.section-first-left .btn-first-section button {
+  background-color: #30488f;
+  color: white;
+  height: 35px;
+  border-radius: 7px;
+  border: none;
+  padding: 0 20px;
+}
+
+.section-first-left .btn-slack {
+  margin-left: 5px;
+}
+
+.btn-first-section button i {
+  padding-right: 10px;
+}
+
+.btn-slack i {
+  padding-right: 10px;
+}
+
+.section-first-right {
+  height: 100%;
+  background-color: white;
+}
+
+.section-first-right img {
+  height: 78%;
+  padding-left: 62px;
+}
+
+.main-center {
+  background-color: #ffe7d2;
+  height: 55%;
+}
+
+.second-section-top {
+  height: 100px;
+  background-color: #ffe7d2;
+  margin-top: 29px;
+}
+
+.second-section-top h2 {
+  color: #58402c;
+  text-align: center;
+  font-size: 26px;
+}
+
+.second-section-middle {
+  height: 180px;
+  background-color: #ffe7d2;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.second-section-middle img {
+  padding-top: 11px;
+  height: 50%;
+}
+
+.second-section-middle p {
+  padding-top: 16px;
+  font-size: 21px;
+}
+
+.second-section-bottom {
+  background-color: #ffe7d2;
+  display: flex;
+  justify-content: center;
+}
+
+.second-section-bottom img {
+  width: 17%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-center-due {
+  background-color: black;
+  height: 23%;
 }
 
