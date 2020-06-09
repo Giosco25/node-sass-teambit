@@ -435,6 +435,12 @@ header {
   background: #fff;
   color: #30488f;
   border: 1px solid #30488f;
+  cursor: pointer;
+}
+
+.btn-header:hover {
+  background-color: #30488f;
+  color: white;
 }
 
 .btn-header i {
@@ -526,37 +532,52 @@ main {
   font-size: 26px;
 }
 
-.second-section-middle {
+.second-section-middle,
+.second-section-center {
   height: 180px;
   background-color: #ffe7d2;
   text-align: center;
   padding-top: 12px;
 }
 
-.second-section-middle img {
+.second-section-middle img,
+.second-section-center img {
   padding-top: 11px;
   height: 50%;
 }
 
-.second-section-middle p {
+.second-section-middle p,
+.second-section-center p {
   padding-top: 16px;
   font-size: 21px;
 }
 
-.second-section-bottom {
+.second-section-bottom,
+.second-section-center-bottom {
   background-color: #ffe7d2;
   display: flex;
   justify-content: center;
 }
 
-.second-section-bottom img {
+.second-section-bottom img,
+.second-section-center-bottom img {
   width: 17%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .main-center-due {
-  background-color: black;
+  background-color: #ffe7d2;
   height: 23%;
+}
+
+footer {
+  height: 490px;
+  background: blue;
+}
+
+.footer-left {
+  background: beige;
+  height: 20%;
 }
 
