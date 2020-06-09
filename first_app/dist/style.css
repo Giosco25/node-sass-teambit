@@ -455,35 +455,24 @@ main {
   margin: auto;
 }
 
-.section-right {
-  width: 40%;
-  height: 500px;
-  background: white;
+.section-first-left {
+  height: 40%;
+  background-color: white;
 }
 
-.section-right h1 {
+.section-first-left h1 {
   color: #58402c;
   margin-top: 50px;
 }
 
-.section-right p {
+.section-first-left p {
   font-size: 20px;
   padding-top: 10px;
 }
 
-.section-right .btn-first-section {
-  padding-top: 19px;
-}
-
-.section-right .btn-first-section button {
-  background-color: #30488f;
-  color: white;
-  width: 185px;
-  height: 35px;
-}
-
-.btn-slack {
-  margin-left: 33px;
+.section-first-right {
+  height: 40%;
+  background-color: lightgreen;
 }
 
 footer {
